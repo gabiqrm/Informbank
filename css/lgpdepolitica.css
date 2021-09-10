@@ -1,0 +1,206 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #030f27;
+}
+
+
+a:hover,
+a:active,
+a:focus {
+    color: #fdd833;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+.nav-bar {
+    position: relative;
+    background: #fdd833;
+    transition: .3s;
+    color: #030f27;
+}
+
+.nav-bar .container-fluid {
+    padding: 0;
+}
+
+.nav-bar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*max-width: 1366px;*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    z-index: 999;
+}
+
+.nav-bar .navbar {
+    height: 100%;
+    background: #fdd833 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: #1e1966;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #1e1966;
+    transition: none;
+}
+
+.nav-bar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f8f9fa;
+}
+
+.nav-bar .btn {
+    color: #fdd833;
+    border-radius: 2px;
+    background: #030f27;
+}
+
+.nav-bar .btn:hover {
+    color: #f7e07b;
+    background: #12213d;
+    border-radius: 2px;
+}
+
+@media (min-width: 992px) {
+    .nav-bar {
+        padding: 0 75px;
+    }
+
+    .nav-bar.nav-sticky {
+        padding: 0;
+    }
+
+    .nav-bar .navbar {
+        padding: 20px;
+    }
+
+    .nav-bar .navbar-brand {
+        display: none;
+    }
+
+    .nav-bar a.nav-link {
+        padding: 8px 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .nav-bar .navbar {
+        padding: 15px;
+    }
+
+    .nav-bar a.nav-link {
+        padding: 5px;
+    }
+
+    .nav-bar .dropdown-menu {
+        box-shadow: none;
+    }
+
+    .nav-bar .btn {
+        display: none;
+    }
+}
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    margin-top: 30px;
+    padding: 30px 15px;
+    background: #030f27;
+}
+
+
+.footer .copyright p {
+    margin: 0;
+    color: #fdd833;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #030f27;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.bluetitle {
+    color: rgb(56, 92, 160);
+}
+
+.greytitle {
+    color: rgb(99, 98, 98);
+}
+
+.lgpd .lgpd-text i {
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+    color: #049cc1;
+}
+
+.lgpdapl-img img {
+    width: 220px;
+    padding: 10px;
+    margin-left: -20px;
+}
+
+.lgpdexc-img img {
+    width: 180px;
+    margin-left: 6px;
+    padding: 10px;
+    margin-left: -10px;
+}
