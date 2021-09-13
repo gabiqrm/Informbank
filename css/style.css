@@ -192,6 +192,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
     color: #1e1966;
+    font-weight: 600;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
